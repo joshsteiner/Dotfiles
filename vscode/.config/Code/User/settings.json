@@ -1,0 +1,17 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "python.linting.pep8Enabled": true,
+    "editor.lineNumbers": "relative",
+    "editor.fontSize": 14.1,
+    "terminal.integrated.rendererType": "dom",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.rulers": [
+        80
+    ],
+    "extensions.ignoreRecommendations": true,
+    "workbench.iconTheme": "vs-minimal",
+    "files.autoSave": "onFocusChange",
+    "editor.autoClosingBrackets": "never",
+    "window.zoomLevel": 0
+}
