@@ -6,6 +6,8 @@ set scrolloff=2
 " set laststatus=2
 set splitbelow
 
+set fillchars+=vert:\ 
+
 " netrw
 " let g:netrw_banner = 0
 " let g:netrw_liststyle = 3
@@ -54,6 +56,9 @@ Plug 'Valloric/YouCompleteMe'
 
 " fish
 Plug 'dag/vim-fish'
+
+" Nim
+Plug 'zah/nim.vim'
 
 call plug#end()
 

@@ -116,3 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
+setxkbmap -option ctrl:nocaps
+xcape 
