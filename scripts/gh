@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# usage:
+#   gh usr/repo -> git clone https://github.com/usr/repo
+#   gh repo     -> git clone https://github.com/repo/repo
+
+separator='BEGIN { FS="/" } NF == 1 { print $1"/"$1; } NF == 2 { print $1"/"$2; }'
+part=$(echo $1 | awk "$separator")
+cmd="git clone https://github.com/$part"
+echo $cmd
+eval $cmd
